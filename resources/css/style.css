@@ -24,3 +24,14 @@ header ul.nav.navbar-nav li.active a {
 .jumbotron h1 {
   font-family: monoton;
 }
+
+.main.container p {
+  color: black;
+  text-shadow: none;
+}
+
+.image-container img {
+  opacity: 0.5;
+  width: 100%;
+  height: auto;
+}
