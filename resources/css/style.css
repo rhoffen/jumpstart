@@ -1,0 +1,13 @@
+body {
+  padding-top: 70px;
+}
+
+header ul.nav.navbar-nav li.active a {
+  color: blue;
+}
+
+@media only screen and (max-width: 770px) {
+  .navbar-brand {
+    display: none;
+  }
+}
