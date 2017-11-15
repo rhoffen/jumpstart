@@ -82,6 +82,7 @@ header ul.nav.navbar-nav li.active a {
   display: none;
 }*/
 
+<<<<<<< HEAD
 /*a.btn.psn-relative {*/
   /*display: block;*/
   /*margin: auto;*/
@@ -89,6 +90,14 @@ header ul.nav.navbar-nav li.active a {
   /*top: -22rem;*/
   /*bottom: 11.85rem;*/
 /*}*/
+=======
+a.btn.psn-relative {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -22rem;
+  /*bottom: 11.85rem;*/
+>>>>>>> 4c2e8f9cd4e46d31d163e765ee2ab38c46763878
 
 /*Jumbotron mobile styling*/
 
