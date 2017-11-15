@@ -1,6 +1,7 @@
 html {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 body {
@@ -22,6 +23,7 @@ header ul.nav.navbar-nav li.active a {
   }
 }
 
+/*Jumbotron desktop styling*/
 .jumbotron {
   background-image: url("../images/jumbotron-bike.jpg");
   color: white;
@@ -46,6 +48,7 @@ header ul.nav.navbar-nav li.active a {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   width: 11.4rem;
   text-shadow: none;
+  padding: 1.3rem 0;
 }
 
 .btn:hover {
@@ -60,13 +63,60 @@ header ul.nav.navbar-nav li.active a {
   margin-bottom: 11.85rem;
 }
 
+/*Jumbotron mobile styling*/
+
+@media only screen and (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+}
+
+/*Main container styling*/
 .main.container p {
   color: black;
   text-shadow: none;
+  line-height: 1.4;
+}
+
+.section-title {
+  color: #399bd1;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#categories {
+  color: #399bd1;
 }
 
 .image-container img {
   opacity: 0.5;
   width: 100%;
   height: auto;
+}
+
+.row {
+  margin-bottom: 5.85rem;
+}
+
+.idea-gen {
+  padding: 5.2rem 0;
+  background-color: #f3f3f3;
+  margin: auto;
+  text-align: center;
+}
+
+.idea-gen h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.idea-gen p {
+  width: 42rem;
+  margin: 1.4rem auto;
 }
