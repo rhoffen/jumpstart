@@ -69,6 +69,15 @@ header ul.nav.navbar-nav li.active a {
   .jumbotron h1 {
     font-size: 5.7rem;
   }
+
+  .jumbotron p {
+    width: auto;
+  }
+
+  .btn.btn-primary {
+    width: 9rem;
+    margin-bottom: 4rem;
+  }
 }
 
 /*Main container styling*/
@@ -76,6 +85,16 @@ header ul.nav.navbar-nav li.active a {
   color: black;
   text-shadow: none;
   line-height: 1.4;
+}
+
+@media only screen and (max-width: 768px) {
+  .main.container p {
+    margin-bottom: 3rem;
+  }
+
+  .main.container p.inventor-name {
+    margin-bottom: 1rem;
+  }
 }
 
 .section-title {
@@ -95,13 +114,19 @@ header ul.nav.navbar-nav li.active a {
 }
 
 .image-container img {
-  opacity: 0.5;
+  opacity: 0.6;
   width: 100%;
   height: auto;
 }
 
 .row {
   margin-bottom: 5.85rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .row {
+    margin-bottom: 0;
+  }
 }
 
 .idea-gen {
@@ -119,4 +144,18 @@ header ul.nav.navbar-nav li.active a {
 .idea-gen p {
   width: 42rem;
   margin: 1.4rem auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .idea-gen {
+    padding: 1rem 0;
+  }
+
+  .idea-gen h1 {
+    font-size: 2rem;
+  }
+
+  .idea-gen p {
+    width: auto;
+  }
 }
