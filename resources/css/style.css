@@ -28,7 +28,9 @@ header ul.nav.navbar-nav li.active a {
   color: white;
   text-align: center;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  height: 52.7rem;
+  height: 50rem;
+  background-position: center;
+  background-size: cover;
 }
 
 .jumbotron-bike {
@@ -67,10 +69,6 @@ header ul.nav.navbar-nav li.active a {
   padding: 1.3rem 0;
 }
 
-/*.jumbotron .btn {*/
-  /*margin-bottom: 11.85rem;*/
-/*}*/
-
 .btn:hover {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
@@ -84,7 +82,7 @@ header ul.nav.navbar-nav li.active a {
   text-align: center;
   margin: auto;
   position: absolute;
-  top: 40.85rem;
+  top: 35.85rem;
   width: 100%;
 }
 
@@ -109,7 +107,6 @@ header ul.nav.navbar-nav li.active a {
 
   .btn.btn-primary {
     width: 9rem;
-    /*margin-bottom: 4rem;*/
   }
 }
 
