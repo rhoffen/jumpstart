@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 header ul.nav.navbar-nav li a {
@@ -28,6 +28,7 @@ header ul.nav.navbar-nav li.active a {
   color: white;
   text-align: center;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  height: 52.7rem; /*Button experiment*/
 }
 
 .jumbotron-bike {
@@ -77,19 +78,21 @@ header ul.nav.navbar-nav li.active a {
 .btn:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
-
-/*.jumbotron .btn {
+/*Comment this out if it messes things up*/
+.jumbotron .btn {
   display: none;
-}*/
+}
 
-/*a.btn.psn-relative {*/
-  /*display: block;*/
-  /*margin: auto;*/
-  /*position: relative;*/
-  /*top: -22rem;*/
+.button-psn {
+  display: block;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 40.85rem;
+  width: 100%;
   /*bottom: 11.85rem;*/
-/*}*/
-
+}
+/*End comment out section*/
 /*Jumbotron mobile styling*/
 
 @media only screen and (max-width: 768px) {
