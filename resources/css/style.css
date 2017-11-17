@@ -7,6 +7,9 @@ html {
 body {
   padding-top: 50px;
 }
+header .container {
+  padding: 0;
+}
 
 header ul.nav.navbar-nav li a {
   font-size: 1.1rem;
@@ -24,10 +27,6 @@ header ul.nav.navbar-nav li.active a {
 }
 
 /*Jumbotron desktop styling*/
-.carousel {
-  /*height: 540px;*/
-  /*padding-bottom: 19rem;*/
-}
 
 .jumbotron {
   box-sizing: content-box;
@@ -68,10 +67,7 @@ header ul.nav.navbar-nav li.active a {
   position: relative;
   top: 10.52rem;
   width: 51.3rem;
-  /*height: 19rem;*/
   margin: auto;
-  /*margin-bottom: 19rem;*/
-  /*padding-bottom: 19rem;*/
 }
 
 .btn {
@@ -145,6 +141,7 @@ header ul.nav.navbar-nav li.active a {
   font-size: 1.7rem;
   font-weight: bold;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .project-title {
