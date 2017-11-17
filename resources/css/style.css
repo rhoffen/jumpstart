@@ -58,7 +58,7 @@ header ul.nav.navbar-nav li.active a {
 .jumbotron h1 {
   position: relative;
   margin: 0 auto;
-  top: 11.85rem;
+  top: 8rem;
   font-size: 7.1rem;
   font-family: monoton;
 }
@@ -66,7 +66,7 @@ header ul.nav.navbar-nav li.active a {
 .jumbotron p {
   box-sizing: border-box;
   position: relative;
-  top: 14.3rem;
+  top: 10.52rem;
   width: 51.3rem;
   /*height: 19rem;*/
   margin: auto;
